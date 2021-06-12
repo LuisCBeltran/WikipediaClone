@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* LOGO */
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo__container {
+    width: 270px;
+    height: 92.25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px;
+
+}
+
+.logo__image {
+    width: 176px;
+    align-content: center;
+}
+
+.logo__mote {
+    font-family: Linux Libertine,Georgia,Times,serif;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* CENTRAL FEATURE */
+
+.central-feature {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.central-feature__container {
+    width: 546px;
+    height: 325px;
+    position: relative;
+}
+
+.central-feature__lang-container {
+    position: absolute;
+    width: 156px;
+    height: 45px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.central-feature__lang-container:hover {
+    background-color: #f2f2f2;
+}
+
+.central-feature__lang-container1 {
+    top: 0;
+    right: 60%;
+}
+
+.central-feature__lang-container2 {
+    top: 0;
+    left: 60%;
+}
+
+.central-feature__lang-container3 {
+    top: 20%;
+    right: 70%;
+}
+
+.central-feature__lang-container4 {
+    top: 20%;
+    left: 70%;
+}
+
+.central-feature__lang-container5 {
+    top: 40%;
+    right: 72%;
+}
+
+.central-feature__lang-container6 {
+    top: 40%;
+    left: 72%;
+}
+
+.central-feature__lang-container7 {
+    top: 60%;
+    right: 70%;
+}
+
+.central-feature__lang-container8 {
+    top: 60%;
+    left: 70%;
+}
+
+.central-feature__lang-container9 {
+    top: 80%;
+    right: 60%;
+}
+
+.central-feature__lang-container10 {
+    top: 80%;
+    left: 60%;
+}
+
+.central-feature__lang {
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: #36c;
+}
+
+.central-feature__lang:visited {
+    color: #36c;
+}
+
+.central-feature__lang:hover {
+    text-decoration: underline;
+}
+
+.central-feature__number {
+    color: #54595d;
+    font-size: 1.3rem;
+    margin-top: 4px;
+}
+
+/* SEARCH */
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 17px;
+}
+
+.search__container {
+    display: flex;
+}
+
+.search__left-part {
+    display: flex;
+    width: auto;
+    border-radius: 2px 0 0 2px;
+    border: solid #a8a8a8;
+    border-width: 1px 0 1px 1px;
+    height: 42px;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.search__input {
+    width: 295px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.search__language-selector {
+    width: 46px;
+    border: none;
+    font-size: 1.2rem;
+    color: #54595d;
+}
+
+.search__button {
+    width: 56px;
+    height: 44px;
+    background-color: #36c;
+    border: none;
+    border-radius: 0 2px 2px 0;
+}
+
+.search__button i {
+    font-size: 1.8rem;
+    color: white;
+}
