@@ -335,3 +335,7 @@ body {
     font-size: 1.3rem;
     color: #54595d;
 }
+
+.real-footer a {
+    text-decoration: none;
+}
