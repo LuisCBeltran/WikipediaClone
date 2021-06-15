@@ -196,3 +196,142 @@ body {
     font-size: 1.8rem;
     color: white;
 }
+
+/* CHOOSE LANGUAGE */
+
+.language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 31px;
+}
+
+.language__container {
+    display: flex;
+    justify-content: center;
+    width: 265px;
+    height: 34px;
+    align-items: center;
+    border: 1px solid #a8a8a8;
+}
+
+.language__line {
+    width: 80px;
+    border: none;
+    height: 1px;
+    background: #cccccc;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.language__selector {
+    border: none;
+    color: #36c;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+/* FOOTER */
+
+.footer__divisor {
+    width: 98%;
+    margin-top: 33px; 
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background: #cccccc;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    color: #54595d;
+}
+
+.footer__container {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-left__up {
+    display: flex;
+    max-width: 350px;
+}
+
+.footer-left__logo {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-left__description {
+    max-width: 267px;
+}
+
+.footer-left__description h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.footer-left__description a {
+    text-decoration: none;
+}
+
+.footer-left__down {
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer-left__os {
+    display: flex;
+    margin-top: 15px;
+}
+
+.footer-right {
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    margin-top: 16px; 
+    margin-left: 13px;
+}
+
+.footer-right__element {
+    display: flex;
+    height: 90px;
+}
+
+.footer-right__description h3 {
+    font-size: 1.4rem;
+    color: #36c;
+    font-weight: 400;
+}
+
+.footer-right__logo {
+    width: 47px;
+    margin-right: 5px;
+}
+
+.footer__divisor2 {
+    margin-top: 10px;
+}
+
+.real-footer {
+    display: flex;
+    justify-content: center;
+    margin: 17px 17px;
+    font-size: 1.3rem;
+    color: #54595d;
+}
